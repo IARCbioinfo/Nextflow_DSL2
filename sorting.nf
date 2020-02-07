@@ -17,7 +17,7 @@ process sort_bam {
 }
 
 workflow sorting_wf {
-    take: input
+    get: input
     main: sort_bam(input)
 }
 
